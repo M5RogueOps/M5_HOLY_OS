@@ -560,12 +560,42 @@ void loop() {
 // ================= GAMIFICATION & XP ENGINE =================
 
 String getSpiritualTitle(int level) {
-    if (level >= 30) return "General of the Faith";
-    if (level >= 20) return "Revivalist";
-    if (level >= 15) return "Prophetic Voice";
-    if (level >= 10) return "Anointed Vessel";
-    if (level >= 5)  return "Prayer Warrior";
-    if (level >= 3)  return "Spirit-Filled Believer";
+    if (level >= 300) return "Apostle of the Nations";
+    if (level >= 290) return "Patriarch of Truth";
+    if (level >= 280) return "Elder of the Sanctuary";
+    if (level >= 270) return "Watchman on the Wall";
+    if (level >= 260) return "Pillar of the Church";
+    if (level >= 250) return "Ambassador of Heaven";
+    if (level >= 240) return "Herald of Righteousness";
+    if (level >= 230) return "Messenger of Grace";
+    if (level >= 220) return "Voice in the Wilderness";
+    if (level >= 210) return "Shield of Faith";
+    if (level >= 200) return "Sword of the Spirit";
+    if (level >= 190) return "Defender of the Gospel";
+    if (level >= 180) return "Guardian of the Covenant";
+    if (level >= 170) return "Steward of the Mysteries";
+    if (level >= 160) return "Follower of the Way";
+    if (level >= 150) return "Disciple of Wisdom";
+    if (level >= 140) return "Witness of the Light";
+    if (level >= 130) return "Servant of the Most High";
+    if (level >= 120) return "Steadfast Believer";
+    if (level >= 110) return "Sower of Seeds";
+    if (level >= 100) return "Bearer of the Cross";
+    if (level >= 90)  return "Warrior of Light";
+    if (level >= 80)  return "Faithful Steward";
+    if (level >= 70)  return "Scholar of Scripture";
+    if (level >= 60)  return "Champion of Hope";
+    if (level >= 50)  return "Torchbearer";
+    if (level >= 45)  return "Soldier of the Cross";
+    if (level >= 40)  return "Knight of the Spirit";
+    if (level >= 35)  return "Commander of Prayer";
+    if (level >= 30)  return "General of the Faith";
+    if (level >= 25)  return "Captain of the Word";
+    if (level >= 20)  return "Revivalist";
+    if (level >= 15)  return "Prophetic Voice";
+    if (level >= 10)  return "Anointed Vessel";
+    if (level >= 5)   return "Prayer Warrior";
+    if (level >= 3)   return "Spirit-Filled Believer";
     return "Seeker of the Word";
 }
 
