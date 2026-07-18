@@ -1,4 +1,4 @@
-# Bible Quest: Spiritual Journey Game
+# Holy OS: Spiritual Journey Game
 
 A gamified application designed to deepen your engagement with Scripture and prayer through consistent practice and spiritual progression.
 
